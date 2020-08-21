@@ -1,0 +1,78 @@
+[
+    {
+        "textLength": {
+            "withSpaces": 0,
+            "withoutSpaces": 0
+        },
+        "wordCount": 0,
+        "characterCount": []
+    },
+    {
+        "textLength": {
+            "withSpaces": 3,
+            "withoutSpaces": 0
+        },
+        "wordCount": 0,
+        "characterCount": []
+    },
+    {
+        "textLength": {
+            "withSpaces": 8,
+            "withoutSpaces": 7
+        },
+        "wordCount": 2,
+        "characterCount": []
+    },
+    {
+        "textLength": {
+            "withSpaces": 5,
+            "withoutSpaces": 5
+        },
+        "wordCount": 1,
+        "characterCount": [
+            {
+                "e": 1
+            },
+            {
+                "h": 1
+            },
+            {
+                "l": 2
+            },
+            {
+                "o": 1
+            }
+        ]
+    },
+    {
+        "textLength": {
+            "withSpaces": 27,
+            "withoutSpaces": 20
+        },
+        "wordCount": 5,
+        "characterCount": [
+            {
+                "a": 1
+            },
+            {
+                "c": 1
+            },
+            {
+                "e": 1
+            },
+            {
+                "h": 2
+            },
+            {
+                "i": 2
+            },
+            {
+                "l": 2
+            },
+            {
+                "o": 2
+            }
+        ]
+    }
+
+]
