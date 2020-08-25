@@ -7,6 +7,7 @@ def testAPI():
 	with app.app_context():
 		file = open("expected_results.txt", "r")
 		jsonInput = json.loads(file.read())
+		file.close()
 		jsonOutput = []
 		for i in jsonInput:
 			jsonData = { "text": i["input"] }
@@ -26,5 +27,8 @@ def testAPI():
 			newFile = open("trace.txt", "w")
 			json.dump(jsonOutput, newFile)
 			print("\033[1;31m" + "SOMETHING WRONG, please check file trace.txt")
+			newFile.close()
+		else:
+			print("\033[92m" + "YOUR API SEEMS TO BE GOOD!")
 
 testAPI()

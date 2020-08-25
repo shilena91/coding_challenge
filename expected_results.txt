@@ -25,7 +25,7 @@
 		"input": " .. 23452",
 		"expected_result": {
 			"textLength": {
-            	"withSpaces": 8,
+            	"withSpaces": 9,
             	"withoutSpaces": 7
         	},
         	"wordCount": 2,
