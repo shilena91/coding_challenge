@@ -10,7 +10,7 @@
 
 I did the API with python3 and flask. You can go [here](https://flask.palletsprojects.com/en/1.1.x/installation/#installation) to see how to run a Flask app.
 
-File **test.py** to be used for compare API return results to expected result.
+File **tester.py** to be used for compare API return results to expected result.
 
 You can modify input and expected results in the file **expected_results.txt**.
 
